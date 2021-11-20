@@ -7,8 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="47,87,0,0" Text="To" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="618,87,0,0" Text="From" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="443,80,0,0" Text="To" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.52,0.089"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,77,0,0" Text="From" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="DoItButton" Content="Do It" HorizontalAlignment="Center" Margin="0,335,0,0" VerticalAlignment="Top" Height="50" Width="154" Click="DoItButton_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="ToLoc" HorizontalAlignment="Left" Margin="443,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="332"/>
+        <TextBox x:Name="FromLoc" HorizontalAlignment="Left" Margin="25,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340"/>
 
     </Grid>
 </Window>
